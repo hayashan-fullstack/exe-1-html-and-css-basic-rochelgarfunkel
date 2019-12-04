@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my first html page</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body >
+  <ul class="navbar">
+      <li><a href="home.html">Home page</a>
+      <li><a href="courses.html">Courses</a>
+      <li><a href="index.html">Sign in</a>
+      <li><a href="links.html">Links</a>
+    </ul>
+<h2>Please fill out this form to get started</h2>
+<form action="/action_page.php" class=try>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br>
+  Email:<br>
+  <input type="email" name="email">
+  <br>
+  Course:<br>
+  <select name="course">
+  <option value="python">python</option>
+  <option value="c++">c++</option>
+  <option value="c#">c#</option>
+  <option value="sql">sql</option>
+  <option value="html">html</option>
+</select>
+  <br>
+  <p>Gender:</p>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
